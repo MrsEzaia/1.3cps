@@ -259,7 +259,6 @@ body{
 
 /* NAV */
 .content__nav {
-    width: 100%;
     background: #F8F8F8;
     display: flex;
 }
