@@ -34,7 +34,6 @@
 
 body{
 	background: #f8f8f8;
-	width: 100%;
 }
 
 /* HEADER */
@@ -259,13 +258,14 @@ body{
 
 /* NAV */
 .content {
-display:flex
+display:flex;
 overflow: hidden;
+padding: 24px 16px;
 }
 
 .content__nav {
-    background: #F8F8F8;
     display: flex;
+
 }
 
 .content__nav-slides::after {
@@ -278,7 +278,6 @@ overflow: hidden;
 }
 
 .content__nav-slides {
-    padding: 24px 0px 24px 16px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -338,6 +337,7 @@ overflow: hidden;
     padding: 0 16px;
     display: flex;
     flex-direction: column;
+    align-content: flex-start;
     row-gap: 16px;
 }
 

@@ -45,16 +45,15 @@
 }
 	
 .content {
-	padding: 0 24px;
-	justify-content: space-around;
 	align-items: flex-start;
 	flex-direction: row;
+	column-gap: 36px;
 }
 	
 .content__block {
     padding: 0px;
     flex-direction: column;
-	width: 45%;
+	width: 50%;
 }
 
 .content__block-text p {
@@ -67,7 +66,7 @@
 }
 
 .content__img {
-	width: 45%;
+	width: 50%;
 }
 
 .content__img img {

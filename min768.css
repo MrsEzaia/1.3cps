@@ -18,14 +18,11 @@
 .buttons__right{
 	width: 40%;
 }
-	
+
 .content {
-	padding: 0 24px;
-	justify-content: space-around;
-	align-items: flex-start;
-	flex-direction: row;
+	column-gap: 48px;
 }
-	
+
 .content__block {
     padding: 0px;
     flex-direction: column;
