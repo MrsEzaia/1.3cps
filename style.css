@@ -258,6 +258,10 @@ body{
 }
 
 /* NAV */
+.content {
+display:flex
+}
+
 .content__nav {
     background: #F8F8F8;
     display: flex;
