@@ -262,7 +262,6 @@ body{
     width: 100%;
     background: #F8F8F8;
     display: flex;
-    overflow: auto;
 }
 
 .content__nav-slides::after {
@@ -281,6 +280,7 @@ body{
     flex-wrap: nowrap;
     white-space: nowrap;
     align-items: center;
+    overflow: auto;
 }
 
 .content__nav-slides > li > a {
