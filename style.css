@@ -262,6 +262,7 @@ body{
     width: 100%;
     background: #F8F8F8;
     display: flex;
+    overflow: auto;
 }
 
 .content__nav-slides::after {
@@ -296,7 +297,6 @@ body{
     letter-spacing: -0.2px;
     
     color: #7E7E82;
-    overflow: auto;
 }
 
 .content__nav-slides > li > a:hover {
