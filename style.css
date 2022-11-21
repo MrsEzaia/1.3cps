@@ -260,6 +260,7 @@ body{
 /* NAV */
 .content {
 display:flex
+overflow: hidden;
 }
 
 .content__nav {
