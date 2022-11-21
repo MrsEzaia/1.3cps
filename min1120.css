@@ -46,7 +46,6 @@
 	
 .content {
 	align-items: flex-start;
-	flex-direction: row;
 	column-gap: 36px;
 }
 	
