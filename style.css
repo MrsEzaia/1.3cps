@@ -267,7 +267,7 @@ padding: 24px 16px;
 
 .content__nav {
     display: flex;
-
+    height: 40px;
 }
 
 .content__nav-slides::after {
@@ -307,7 +307,7 @@ padding: 24px 16px;
 .content__nav-slides > li > a:hover {
     padding: 8px 16px 8px 9px;
     background: #FFFFFF;
-    border: 2px solid #B8FFEC;
+    border: 2px solid #b8ffec;
     border-radius: 6px;
     transition: all 0.4s ease-out;
 }
@@ -315,7 +315,7 @@ padding: 24px 16px;
 .content__nav-slides > li > a:active {
     padding: 8px 16px 8px 9px;
     background: #FFFFFF;
-    border: 2px solid #B8FFEC;
+    border: 2px solid #b8ffec;
     border-radius: 6px;
 }
 
