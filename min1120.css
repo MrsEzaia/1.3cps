@@ -52,7 +52,7 @@
 .content__block {
     padding: 0px;
     flex-direction: column;
-	width: 45%;
+	width: 40%;
 }
 
 .content__block-text p {
@@ -65,7 +65,7 @@
 }
 
 .content__img {
-	width: 45%;
+	width: 40%;
 }
 
 .content__img img {

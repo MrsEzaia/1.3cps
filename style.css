@@ -119,6 +119,8 @@ body{
 	display: none;
     width: 2px;
     height: 32px;
+    background: #EAEAEA;
+    border-radius: 1px;
 }
 
 .buttons__divider {
