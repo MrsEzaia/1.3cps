@@ -279,7 +279,6 @@ body{
     flex-wrap: nowrap;
     white-space: nowrap;
     align-items: center;
-    overflow: auto;
 }
 
 .content__nav-slides > li > a {
@@ -296,6 +295,7 @@ body{
     letter-spacing: -0.2px;
     
     color: #7E7E82;
+    overflow: auto;
 }
 
 .content__nav-slides > li > a:hover {
