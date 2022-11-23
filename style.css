@@ -33,6 +33,7 @@
 }
 
 body {
+  width: 100%;
   overflow: hidden;
   background: #f8f8f8;
 }
@@ -56,7 +57,7 @@ body {
   padding: 18px 0px;
 }
 
-.header__buttons-left {
+.header__buttons--left {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
@@ -260,11 +261,14 @@ body {
 
 /* NAV */
 .content {
+  width: 100%;
   display: flex;
   padding: 24px 16px;
 }
 
 .content__nav {
+  margin: 0;
+  width: 100%;
   display: flex;
   overflow: auto;
 }
