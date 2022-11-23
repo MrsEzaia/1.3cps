@@ -1,111 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./reset_style.css">
-	<link rel="stylesheet" href="./style.css">
-	<link rel="stylesheet" href="./min768.css">
-	<link rel="stylesheet" href="./min1120.css">
-	<style type="text/css">
-    </style>
-<title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset_style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./min768.css" />
+    <link rel="stylesheet" href="./min1120.css" />
+    <style type="text/css"></style>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header clearfix">
+      <section class="header__nav-buttons">
+        <ul class="header__buttons--left">
+          <button
+            class="burger header__burger"
+            onclick="window.location.href = 'menu.html'"
+          >
+            <ul class="burger__lines--open">
+              <li class="burger__line burger__line-top"></li>
+              <li class="burger__line burger__line-mid"></li>
+              <li class="burger__line burger__line-bot"></li>
+            </ul>
+          </button>
+          <ul class="buttons__divider--first">
+            <li class="button__divider">
+              <span class="header__divider"></span>
+            </li>
+          </ul>
+          <a href="./index.html"
+            ><img src="./img/header__logo.svg" alt="#" class="header__logo"
+          /></a>
+        </ul>
 
-	<header class="header clearfix">
+        <ul class="buttons header__buttons">
+          <ul class="header__btns--mid">
+            <li class="button-call">
+              <button href="#"><img src="./img/iconcall.svg" alt="#" /></button>
+            </li>
+          </ul>
+          <ul class="header__btns--mid">
+            <li class="button-chat">
+              <button href="#"><img src="./img/iconchat.svg" alt="#" /></button>
+            </li>
+          </ul>
+          <ul class="header__btns--mid">
+            <li class="button-profile">
+              <button href="#">
+                <img src="./img/Groupprofile.svg" alt="#" />
+              </button>
+            </li>
+          </ul>
 
-		<section class="header__nav-buttons">
-		<ul class="header__buttons-left">
-			<button class="burger header__burger" onclick="window.location.href = 'menu.html'">
-				<ul class="burger__lines--open">
-					<li class="burger__line burger__line-top"></li>
-					<li class="burger__line burger__line-mid"></li>
-					<li class="burger__line burger__line-bot"></li>
-				</ul>
-			</button>
-		<ul class="buttons__divider--first">
-			<li class="button__divider"><span class="header__divider"></span></li>
-		</ul>
-		<a href="./index.html"><img src="./img/header__logo.svg" alt="#" class="header__logo"></a>
-		</ul>
-		
-		<ul class="buttons header__buttons">
-			<ul class="buttons__center">
-				<li class="button-call"><button href="#"><img src="./img/iconcall.svg" alt="#"></button></li>
-			</ul>
-			<ul class="buttons__center">
-				<li class="button-chat"><button href="#"><img src="./img/iconchat.svg" alt="#"></button></li>
-			</ul>
-			<ul class="buttons__center">
-				<li class="button-profile"><button href="#"><img src="./img/Groupprofile.svg" alt="#"></button></li>
-			</ul>
+          <ul class="buttons__divider">
+            <li class="button__divider">
+              <span class="header__divider"></span>
+            </li>
+          </ul>
 
-			<ul class="buttons__divider">
-				<li class="button__divider"><span class="header__divider"></span></li>
-			</ul>
-	
+          <ul class="header__btns--right">
+            <li>
+              <button>
+                <span>Оставить заявку</span>
+                <div class="btn-img">
+                  <img src="./img/Grouprepair.svg" alt="#" />
+                </div>
+              </button>
+            </li>
+            <li>
+              <button>
+                <span>Статус ремонта</span>
+                <div class="btn-img">
+                  <img src="./img/iconcheckstatus.svg" alt="#" />
+                </div>
+              </button>
+            </li>
+          </ul>
+        </ul>
+      </section>
 
-			<ul class="buttons__right">
-				<li>
-						<button>
-							<span>Оставить заявку</span>
-							<div class="btn-img">
-							<img src="./img/Grouprepair.svg" alt="#">
-							</div>
-						</button>
-				</li>
-				<li>
-						<button>
-							<span>Статус ремонта</span>
-							<div class="btn-img">
-							<img src="./img/iconcheckstatus.svg" alt="#">
-							</div>
-						</button>
-				</li>
-			</ul>
-		</ul>
+      <section class="header__title">
+        <h1>Услуги и сервисы</h1>
+      </section>
+    </header>
 
-	</section>
+    <main class="content">
+      <nav class="content__nav">
+        <ul class="content__nav-slides">
+          <li><a href="#">Ремонтируемые устройства</a></li>
+          <li><a href="#">Дополнительные услуги</a></li>
+          <li><a href="#">Цены на услуги</a></li>
+          <li><a href="#">Специальные цены</a></li>
+          <li><a href="#">Ремонтируемые бренды</a></li>
+          <li><a href="#">Адреса сервисных центров</a></li>
+          <li><a href="#">Отзывы</a></li>
+        </ul>
+      </nav>
 
-		<section class="header__title">
-			<h1>Услуги и сервисы</h1>
-		</section>
-	</header>
+      <article class="content__block">
+        <div class="content__block-text">
+          <p>
+            Мы являемся авторизованным сервисным центром по ремонту техники
+            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+            официальной гарантией производителя.
+          </p>
+          <p>
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного
+            партнера, что подтверждает большое количество постоянных клиентов.
+            Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+            очередь, советуют нас родным и близким.
+          </p>
+        </div>
 
-	<main class="content">
-		<nav class="content__nav">
-			<ul class="content__nav-slides">
-				<li><a href="#">Ремонтируемые устройства</a></li>
-				<li><a href="#">Дополнительные услуги</a></li>
-				<li><a href="#">Цены на услуги</a></li>
-				<li><a href="#">Специальные цены</a></li>
-				<li><a href="#">Ремонтируемые бренды</a></li>
-				<li><a href="#">Адреса сервисных центров</a></li>
-				<li><a href="#">Отзывы</a></li>
-			</ul>
-		</nav>
-		
-		
-		<article class="content__block">
-			<div class="content__block-text">
-				<p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
-				Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-				<p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое 
-					количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, 
-					советуют нас родным и близким.</p>
-			</div>
+        <button class="content__btn">Читать далее</button>
+      </article>
 
-			<button class="content__btn">Читать далее</button>
-		</article>
-
-		<div class="content__img">
-			<img src="img/image.png" alt="#">
-		</div>
-
-	</main>
-
-	
-</body>
+      <div class="content__img">
+        <img src="img/image.png" alt="#" />
+      </div>
+    </main>
+  </body>
 </html>
