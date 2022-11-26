@@ -1,22 +1,20 @@
 body {
-  position: absolute;
-  height: 100vh;
+  width: 100%;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.96;
+}
+
+.content {
+  position: fixed;
+  left: 0;
   top: 0;
-  left: 0px;
   width: 320px;
   background: #ffffff;
-  box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: "TT Lakes";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  /*identicaltoboxheight,or150%*/
-  letter-spacing: -0.2px;
-  color: #1b1c21;
+  min-height: 100vh;
+  background: #ffffff;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
+    16px 0px 52px rgba(14, 24, 80, 0.2);
 }
 
 .header {

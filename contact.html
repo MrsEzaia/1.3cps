@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset_style.css" />
+    <link rel="stylesheet" href="./contact.css" />
+    <link rel="stylesheet" href="./min768contact.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="body">
+      <header class="header">
+        <ul class="header__list">
+          <li class="header__item">
+            <button class="header__btn">
+              <img src="./img/iconburger.svg" alt="#" />
+            </button>
+          </li>
+          <li class="header__item">
+            <h1 class="header__title">Обратная связь</h1>
+          </li>
+        </ul>
+      </header>
+
+      <form action="#" class="form">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          required
+          autocomplete="name"
+          autofocus
+          placeholder="Имя"
+        />
+        <input
+          type="tel"
+          name="call"
+          id="call"
+          required
+          autocomplete="tel"
+          autofocus
+          placeholder="Телефон"
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          autocomplete="email"
+          autofocus
+          placeholder="Электронная почта"
+        />
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="5"
+          placeholder="Сообщение"
+        ></textarea>
+        <p class="form__p">
+          Нажимая “отправить”, вы даете согласие на <a
+            href="#"
+            class="form__link"
+            >обработку персональных данных</a
+          >
+          и соглашаетесь с нашей
+          <a href="#" class="form__link">политикой конфиденциальности</a>
+        </p>
+        <input type="submit" value="Отправить" class="form__btn" />
+      </form>
+    </section>
+  </body>
+</html>
