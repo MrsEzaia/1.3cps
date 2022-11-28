@@ -6,8 +6,8 @@
     display: flex;
   }
 
-  .header__logo {
-    margin-right: 15em;
+  .header__item:nth-child(3) {
+    flex-grow: 0.5;
   }
 
   .content {

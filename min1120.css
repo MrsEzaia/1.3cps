@@ -2,27 +2,31 @@
 
 @media (min-width: 1120px) {
   body {
+    background: #f8f8f8;
+  }
+
+  .site {
     width: 1120px;
     margin: 0 auto;
   }
 
   .header {
     width: 100%;
-    display: inline;
-    background: #f8f8f8;
+    display: flex;
     justify-content: space-between;
   }
 
   .header__list {
     justify-content: flex-end;
     width: 40%;
-    float: right;
     background: #f8f8f8;
     column-gap: 32px;
     padding-top: 24px;
   }
 
-  .header__item:not(.header__item:nth-last-child(1)):not(.header__item:nth-last-child(2)) {
+  .header__item:not(.header__item:nth-last-child(1)):not(
+      .header__item:nth-last-child(2)
+    ) {
     display: none;
   }
 
@@ -55,11 +59,19 @@
     clear: both;
   }
 
+  .header__item:nth-last-child(1) {
+    flex-grow: 1;
+  }
+
+  .header__item:nth-last-child(2) {
+    flex-grow: 1;
+  }
+
   .header__title {
     width: 30%;
-    float: left;
     text-align: center;
     display: flex;
+    flex-grow: 3;
   }
 
   .nav__slides {

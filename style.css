@@ -32,7 +32,7 @@
   font-style: normal;
 }
 
-body {
+.site {
   width: 100%;
   overflow: hidden;
   background: #f8f8f8;
@@ -68,7 +68,7 @@ body {
   border-radius: 1px;
 }
 
-.header__logo {
+.logo {
   width: 96.55px;
   height: 50.81px;
 }
@@ -190,12 +190,6 @@ body {
   border-radius: 6px;
 }
 
-.nav__link:visited {
-  padding: 0;
-  background: none;
-  border: none;
-}
-
 /* MAIN */
 .content {
   width: 100%;
@@ -224,7 +218,7 @@ body {
   overflow: hidden;
 }
 
-.content__block-text p {
+.content__block-paragraph {
   font-family: "TT Lakes";
   font-style: normal;
   font-weight: 400;
@@ -252,9 +246,6 @@ body {
   /* identical to box height, or 150% */
 
   letter-spacing: -0.2px;
-
-  color: #1b1c21;
-  cursor: pointer;
 }
 
 .content__btn::before {
@@ -269,6 +260,7 @@ body {
 
 .content__img {
   width: 100%;
+  height: 176px;
 }
 
 .content__img img {
