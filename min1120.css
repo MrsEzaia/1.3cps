@@ -17,11 +17,12 @@
   }
 
   .header__list {
+    width: auto;
     justify-content: flex-end;
-    width: 40%;
     background: #f8f8f8;
     column-gap: 32px;
     padding-top: 24px;
+    flex-grow: 1;
   }
 
   .header__item:not(.header__item:nth-last-child(1)):not(
@@ -59,19 +60,12 @@
     clear: both;
   }
 
-  .header__item:nth-last-child(1) {
-    flex-grow: 1;
-  }
-
-  .header__item:nth-last-child(2) {
-    flex-grow: 1;
-  }
-
   .header__title {
-    width: 30%;
+    width: auto;
     text-align: center;
     display: flex;
-    flex-grow: 3;
+    order: -1;
+    flex-grow: 1;
   }
 
   .nav__slides {
