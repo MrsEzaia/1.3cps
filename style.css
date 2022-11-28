@@ -59,8 +59,9 @@
   display: flex;
 }
 
-.header__item:nth-child(2),
-.header__item:nth-last-child(3) {
+.header__item:nth-child(2)::before,
+.header__item:nth-last-child(3)::before {
+  content: "";
   display: flex;
   width: 2px;
   height: 32px;
