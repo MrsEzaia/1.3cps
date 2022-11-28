@@ -78,8 +78,14 @@
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.btn__img {
+  width: 20px;
+  height: 20px;
 }
 
 .header__item:nth-child(2),
