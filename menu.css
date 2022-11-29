@@ -1,46 +1,58 @@
-body {
-  width: 100%;
-  background: #ffffff;
-  mix-blend-mode: normal;
-  opacity: 0.96;
-}
-
-.content {
-  position: fixed;
-  left: 0;
+.menu {
+  position: absolute;
   top: 0;
+  left: 0px;
   width: 320px;
+  height: 100%;
+
   background: #ffffff;
-  min-height: 100vh;
-  background: #ffffff;
-  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
-    16px 0px 52px rgba(14, 24, 80, 0.2);
+  box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  font-family: "TT Lakes";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /*identicaltoboxheight,or150%*/
+  letter-spacing: -0.2px;
+  color: #1b1c21;
 }
 
 .header {
-  width: 100%;
+  flex-grow: 1;
 }
 
 .header__list {
   padding: 23px 24px;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
   align-items: center;
 }
 
-.header__link {
+.header__item {
+  flex-grow: 1;
+}
+
+.header__item:nth-child(2) {
+  flex-grow: 5;
+}
+
+.logo {
   display: flex;
   width: 97px;
   height: 51px;
 }
 
-.header__item:nth-child(2) {
-  padding-right: 70px;
+.header__btn {
+  display: flex;
+  flex-grow: 1;
 }
 
-.header__btn {
+.header__btn-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,8 +68,8 @@ body {
 
 /* MAIN */
 .nav {
-  width: 100%;
   padding: 32px 24px;
+  flex-grow: 10;
 }
 
 .nav__slides {
@@ -104,6 +116,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 24px;
+  flex-grow: 1;
 }
 
 .footer__list {
@@ -153,10 +166,6 @@ body {
   color: #7e7e82;
 }
 
-.footer__link-email:visited {
-  color: #1b1c21;
-}
-
 .footer__link-phone {
   font-family: "TT Lakes";
   font-style: normal;
@@ -178,10 +187,6 @@ body {
   color: #7e7e82;
 }
 
-.footer__link-phone:visited {
-  color: #1b1c21;
-}
-
 .footer__lang {
   font-family: "TT Lakes";
   font-style: normal;
@@ -201,14 +206,6 @@ body {
 
 .footer__lang:hover {
   color: #7e7e82;
-}
-
-.footer__lang:visited {
-  color: #1b1c21;
-}
-
-.footer__lang:link {
-  color: #1b1c21;
 }
 
 .footer__lang.footer__lang--active {

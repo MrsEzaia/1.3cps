@@ -1,0 +1,5 @@
+@media (min-width: 360px) and (max-width: 768px) {
+  .menu {
+    width: 360px;
+  }
+}
