@@ -39,7 +39,7 @@
   top: 0;
   left: 0px;
   width: 320px;
-  height: 100%;
+  height: 100vh;
 
   background: #ffffff;
   box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
@@ -58,7 +58,7 @@
   color: #1b1c21;
 }
 
-.header__list {
+.menu__header-list {
   padding: 23px 24px;
   display: flex;
   flex-direction: row;
@@ -66,7 +66,7 @@
   column-gap: 16.73px;
 }
 
-.header__item:nth-child(2) {
+.menu__header-item:nth-child(2) {
   flex-grow: 1;
 }
 
@@ -109,38 +109,38 @@
 }
 
 /* MAIN */
-.nav {
+.menu__nav {
   padding: 32px 24px;
   flex-grow: 1;
 }
 
-.nav__list {
+.menu__nav-list {
   display: flex;
   flex-direction: column;
   row-gap: 32px;
 }
 
-.nav__item {
+.menu__nav-item {
   display: flex;
 }
 
-.nav__link {
+.menu__nav-link {
   color: #1b1c21;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.nav__link:hover {
+.menu__nav-link:hover {
   color: #7e7e82;
 }
 
-.nav__link--active {
+.menu__nav-link--active {
   color: #7e7e82;
   flex-direction: row;
 }
 
-.nav__link:hover::before {
+.menu__nav-link:hover::before {
   color: #7e7e82;
   position: absolute;
   content: "";
@@ -153,23 +153,23 @@
 }
 
 /* FOOTER */
-.footer {
+.menu__footer {
   padding-left: 24px;
 }
 
-.footer__list {
+.menu__footer-list {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
 }
 
-.footer__item {
+.menu__footer-item {
   display: flex;
   flex-direction: row;
   column-gap: 16px;
 }
 
-.footer__link-email {
+.menu__footer-email {
   font-family: "TT Lakes";
   font-style: normal;
   font-weight: 500;
@@ -182,15 +182,15 @@
   color: #1b1c21;
 }
 
-.footer__link-email:active {
+.menu__footer-email:active {
   color: #7e7e82;
 }
 
-.footer__link-email:hover {
+.menu__footer-email:hover {
   color: #7e7e82;
 }
 
-.footer__link-phone {
+.menu__footer-phone {
   font-family: "TT Lakes";
   font-style: normal;
   font-weight: 700;
@@ -203,11 +203,11 @@
   color: #1b1c21;
 }
 
-.footer__link-phone:active {
+.menu__footer-phone:active {
   color: #7e7e82;
 }
 
-.footer__link-phone:hover {
+.menu__footer-phone:hover {
   color: #7e7e82;
 }
 
