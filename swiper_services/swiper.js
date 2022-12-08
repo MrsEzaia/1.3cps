@@ -19,6 +19,7 @@ if (document.documentElement.clientWidth < 768) {
 if (document.documentElement.clientWidth > 768) {
   const swiper = document.querySelector("#swiper");
   const btn = document.querySelector(".content__btn-more");
+
   btn.onclick = function () {
     if (swiper.className == "swiper-visible") {
       swiper.className = "";
