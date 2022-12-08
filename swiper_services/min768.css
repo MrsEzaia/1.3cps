@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
   #swiper {
     justify-content: center;
-    padding: 24px 24px 0 24px;
+    padding: 24px 10px 0 24px;
     height: 175px;
     overflow: hidden;
   }
@@ -15,9 +15,14 @@
     justify-content: flex-start;
   }
 
+  .swiper-slide {
+    width: 224px !important;
+    height: 72px !important;
+  }
+
   #swiper.swiper-visible {
     height: auto;
-    overflow-y: auto;
+    overflow-y: hidden;
   }
 
   .swiper-wrapper::after {
@@ -30,7 +35,7 @@
 
   .content__btn-more {
     display: flex;
-    padding-left: 24px;
+    padding-left: 20px;
   }
 }
 
@@ -39,10 +44,6 @@
     width: 1120px;
     margin: 0 auto;
     background: #f2f2f2;
-  }
-
-  .header {
-    background: linear-gradient(135deg, #f8f8f8 40%, #ffffff 98.61%);
   }
 
   .swiper-pagination {
